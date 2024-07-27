@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petsy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/ecommerce/petsy.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-paw"></i> Petsy</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#services">Service</a>
+            <a href="#plan">Plan</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <a href="cart.html" id="cart" class="fas fa-shopping-cart"></a>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="login-form">
+            <h3>Sign in</h3>
+            <input type="email" name="" placeholder="Enter Your Email" id="" class="box">
+            <input type="password" name="" placeholder="Enter Your Password" id="" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Save Login Info</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <div class="links">
+                <a href="#">Forgot Password?</a>
+                <a href="#">Sign up</a>
+            </div>
+        </form>
+
+    </header>
+
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3> <span>Hi!</span> Welcome to Petsy</h3>
+            <a href="#shop" class="home-btn">Shop now</a>
+        </div>
+
+        <img src="/ecommerce/images/wave.png" class="wave" alt="">
+    </section>
+
+    <!-- about section  -->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="/ecommerce/images/petkhana.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Premium <span>pet food </span> manufacturer</h3>
+            <p>At Petsy, we pride ourselves on being more than just pet food manufacturers; we are dedicated to crafting
+                premium-quality nutrition tailored to the health and happiness of your beloved pets. Our commitment
+                stems from a passion for animals and a deep understanding of their dietary needs. Trust Petsy for
+                superior pet food that enhances vitality and fosters a lifetime of wellbeing."</p>
+            <a href="#" class="home-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- food banner section  -->
+    <div class="dog-food">
+
+        <div class="image">
+            <img src="/ecommerce/images/dog-food.jpg" alt="">
+        </div>
+
+
+        <div class="content">
+            <h3> <span>air dried</span> dog food </h3>
+            <p>Discover the exceptional taste and nutritional benefits of Petsy's hot-selling air-dried dog food.
+                Specially crafted to preserve the natural goodness of each ingredient, our air-dried dog food offers a
+                convenient, nutrient-rich option that dogs love</p>
+            <div class="amount">Rs.500 - Rs.1500</div>
+            <a href="#"><img src="/ecommerce/images/shop_now_01.png" alt=""></a>
+        </div>
+    </div>
+
+
+
+    <div class="cat-food">
+
+        <div class="content">
+            <h3> <span>air dried</span> cat food </h3>
+            <p>Introducing Petsy's air-dried cat food, a favorite among feline aficionados for its premium quality and
+                irresistible taste. Carefully crafted to preserve the natural flavors and nutrients of each ingredient,
+                our air-dried cat food offers a convenient and nutritious option that cats adore</p>
+            <div class="amount">Rs.500 - Rs.2000</div>
+
+            <a href="#"><img src="/ecommerce/images/Screenshot_2024-06-28_190509-removebg-preview.png" alt=""></a>
+        </div>
+
+        <div class="image">
+            <img src="/ecommerce/images/catfood.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- shop section  -->
+    <section class="shop" id="shop">
+        <h1 class="heading">Our <span> products </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="product-image">
+                    <img src="/ecommerce/images/airdried1.png" alt="">
+                </div>
+                <div class="shop-content">
+                    <h3> Air Dried Dog Food - Buffalo Recipe</h3>
+                    <div class="amount">Rs. 610/-</div>
+                    <div class="quantity-container">
+                        <div class="qty">
+                            <button class="quantity-btn" id="decrease">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn" id="increase">+</button>
+                        </div>
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="product-image">
+                    <img src="/ecommerce/images/airdired2.jpg.png" alt="">
+                </div>
+                <div class="shop-content">
+                    <h3> Air Dried Dog Food - Chicken Recipe</h3>
+                    <div class="amount">Rs. 310/-</div>
+                    <div class="quantity-container">
+                        <div class="qty">
+                            <button class="quantity-btn" id="decrease">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn" id="increase">+</button>
+                        </div>
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="product-image">
+                    <img src="/ecommerce/images/airdired3.jpg.png" alt="">
+                </div>
+                <div class="shop-content">
+                    <h3> Air Dried Dog Food - Duck Recipe</h3>
+                    <div class="amount">Rs. 750/-</div>
+                    <div class="quantity-container">
+                        <div class="qty">
+                            <button class="quantity-btn" id="decrease">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn" id="increase">+</button>
+
+                        </div>
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="product-image">
+                    <img src="/ecommerce/images/airdired4.jpg.png" alt="">
+                </div>
+                <div class="shop-content">
+                    <h3> Air Dried Dog Food - Goat,Br. Rice & Veggies</h3>
+                    <div class="amount">Rs. 450/-</div>
+                    <div class="quantity-container">
+                        <div class="qty">
+                            <button class="quantity-btn" id="decrease">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn" id="increase">+</button>
+
+                        </div>
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="product-image">
+                    <img src="/ecommerce/images/airdired5.jpg.png" alt="">
+                </div>
+                <div class="shop-content">
+                    <h3> Air Dried Dog Food Chicken & Brown Rice</h3>
+                    <div class="amount">Rs. 700/-</div>
+                    <div class="quantity-container">
+                        <div class="qty">
+                            <button class="quantity-btn" id="decrease">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn" id="increase">+</button>
+
+                        </div>
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="product-image">
+                    <img src="/ecommerce/images/airdired6.jpg.png" alt="">
+                </div>
+                <div class="shop-content">
+                    <h3> Air Dried Dog Food - Goat & Vegetables</h3>
+                    <div class="amount">Rs. 610/-</div>
+                    <div class="quantity-container">
+                        <div class="qty">
+                            <button class="quantity-btn" id="decrease">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="quantity-btn" id="increase">+</button>
+
+                        </div>
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Service section  -->
+    <section class="services" id="services">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <div class="services-box-container">
+
+            <div class="box">
+                <i class="fas fa-dog"></i>
+                <h3>Dog Boarding</h3>
+                <a href="#" class="home-btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-cat"></i>
+                <h3>Cog Boarding</h3>
+                <a href="#" class="home-btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bath"></i>
+                <h3>Spa & Grooming</h3>
+                <a href="#" class="home-btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-drumstick-bite"></i>
+                <h3>Healthy Meal</h3>
+                <a href="#" class="home-btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-baseball-ball"></i>
+                <h3>Activity exercise</h3>
+                <a href="#" class="home-btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Health Care</h3>
+                <a href="#" class="home-btn"> read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- plan section  -->
+
+    <section class="plan" id="plan">
+        <h1 class="heading">Choose a <Span>plan</Span></h1>
+        <div class="box-container">
+            <div class="box">
+                <h3 class="title">Pet Care</h3>
+                <h3 class="day">1 Day</h3>
+                <i class="fas fa-bicycle icon"></i>
+                <div class="list">
+                    <p>Pet room <span class="fas fa-check"></span></p>
+                    <p>Pet Grooming <span class="fas fa-check"></span></p>
+                    <p>Pet exercise <span class="fas fa-check"></span></p>
+                    <p>Pet meals <span class="fas fa-check"></span></p>
+                </div>
+                <div class="amount"><span>Rs.</span>500</div>
+                <a href="#" class="home-btn">Choose plan </a>
+            </div>
+            <div class="box">
+                <h3 class="title">Pet Care</h3>
+                <h3 class="day">10 Days</h3>
+                <i class="fa-solid fa-motorcycle icon"></i>
+                <div class="list">
+                    <p>Pet room <span class="fas fa-check"></span></p>
+                    <p>Pet Grooming <span class="fas fa-check"></span></p>
+                    <p>Pet exercise <span class="fas fa-check"></span></p>
+                    <p>Pet meals <span class="fas fa-check"></span></p>
+                </div>
+                <div class="amount"><span>Rs.</span>1000</div>
+                <a href="#" class="home-btn">Choose plan </a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">Pet Care</h3>
+                <h3 class="day">1 Month</h3>
+                <i class="fas fa-car-side icon"></i>
+                <div class="list">
+                    <p>Pet room <span class="fas fa-check"></span></p>
+                    <p>Pet Grooming <span class="fas fa-check"></span></p>
+                    <p>Pet exercise <span class="fas fa-check"></span></p>
+                    <p>Pet meals <span class="fas fa-check"></span></p>
+                </div>
+                <div class="amount"><span>Rs.</span>1500</div>
+                <a href="#" class="home-btn">Choose plan </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="image">
+            <img src="/ecommerce/images/contactimg.jpg" alt="">
+        </div>
+
+        <form action="">
+            <h3>Contact Us</h3>
+            <input type="text" placeholder="Your Name" class="box">
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="number" placeholder="Your Number" class="box">
+            <textarea name="" id="" placeholder="Your Message" cols="30" rows="10">  </textarea>
+            <input type="submit" value="Send Message " class="home-btn">
+        </form>
+
+    </section>
+
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="home-btn"> <i class="fab.fa-facebook"></i> facebook</a>
+            <a href="#" class="home-btn"> <i class="fab.fa-twitter"></i> twitter</a>
+            <a href="#" class="home-btn"> <i class="fab.fa-instagram"></i>instagram </a>
+            <a href="#" class="home-btn"> <i class="fab.fa-linkedin"></i> linkedin</a>
+            <a href="#" class="home-btn"> <i class="fab.fa-pinterest"></i> pinterest</a>
+        </div>
+
+        <div class="credit">Created by <span>Jashanjot Singh</span> | All rights reserved</div>
+    </section>
+
+    <script src="/ecommerce/petsy.js"> </script>
+    <script src="/ecommerce/cart.js"> </script>
+</body>
+
+</html>
